@@ -47,8 +47,8 @@ const passwords = [
     });
     const page = await browser.newPage();
     await page.goto('http://xg.hit.edu.cn/zhxy-xgzs/xg_mobile/xs/yqxx');
-    await page.type("#username", a.u, { delay: 100 })
-    await page.type("#password", a.p, { delay: 100 })
+    await page.type("#username", a.u, { delay: 105 })
+    await page.type("#password", a.p, { delay: 105 })
     await page.click('#casLoginForm > p:nth-child(5) > button')
     await page.waitFor(5000)
 
