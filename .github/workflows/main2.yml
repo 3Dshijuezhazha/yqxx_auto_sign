@@ -9,7 +9,7 @@ on:
     paths:
       - 'auto_sign.js'
   schedule:
-    - cron:  '36 1 * * *'
+    - cron:  '31 1 * * *'
 
 jobs:
   build:
