@@ -4,6 +4,7 @@ name: Sign
 
 # Trigger on push or everyday 10:21 AM @ "Asia/Shanghai" Timezone (UTC+8).
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:
